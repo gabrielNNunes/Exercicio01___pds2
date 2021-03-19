@@ -11,4 +11,12 @@ public class ExemploServiceImpl implements ExemploService {
     public int calcula(int id) {
         return id+10;
     }
+
+    @WebMethod
+    public String meuNome() {
+        return "Gabriel Nascimento Nunes!";
+    }
+
+
+
 }

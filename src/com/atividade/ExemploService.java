@@ -9,4 +9,7 @@ public interface ExemploService {
     @WebMethod
     int calcula(int id);
 
+    @WebMethod
+    String meuNome();
+
 }
